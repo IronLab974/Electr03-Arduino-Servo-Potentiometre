@@ -40,6 +40,7 @@ Ce projet Arduino te permet de contrôler un servomoteur (MG996R) en temps réel
 
 ## 💾 Code Arduino
 
+```cpp
 #include <Servo.h>
 
 Servo myServo;  // Création de l'objet servo
@@ -58,7 +59,7 @@ void loop() {
   myServo.write(angle);                     // Déplacement du servo à l'angle donné
   delay(15);                                // Pause pour laisser le temps au servo de bouger
 }
-
+``` 
 ---
 
 ## 📷 Illustrations (à insérer dans le dossier Images/)
