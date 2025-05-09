@@ -45,7 +45,7 @@ Ce projet Arduino te permet de contrôler un servomoteur (MG996R) en temps réel
 
 Servo myServo;  // Création de l'objet servo
 
-const int potPin = A0;    // Broche du potentiomètre
+const int potPin = 0;    // Broche du potentiomètre
 int potValue = 0;         // Valeur analogique lue
 int angle = 0;            // Position convertie
 
