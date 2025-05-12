@@ -103,7 +103,9 @@ Breadboard
 Alimentation 5V 3A
 ![Alimentation externe 5V](Images/alimentation.png)
 
-> Dans ce projet j'ai utilisé une alimentation externe 5V 3A que j'ai modifié dans une vidéo précédente.
+> Dans ce projet, j’utilise une alimentation externe 5V 3A que j’ai modifiée dans une vidéo précédente.  
+> Elle est connectée à la breadboard via les lignes +5V et GND, ce qui permet d’alimenter l’ensemble des composants du montage, y compris l’Arduino Uno.
+
 
 Condensateur 1000 µF
 ![Condensateur 1000 µF](Images/condensateur.png)
