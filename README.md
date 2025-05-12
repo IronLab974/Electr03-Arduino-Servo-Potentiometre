@@ -7,11 +7,16 @@ Ce projet Arduino te permet de contrôler un servomoteur (MG996R) en temps réel
 ## 🛠 Matériel nécessaire
 
 - Arduino Uno
+- Alimentation externe 5V (2-3A)
 - Servomoteur MG996R
 - Potentiomètre 10kΩ
 - Breadboard
-- Câbles Dupont
+- Câbles Male (8 pour le montage)
 - (Optionnel) Condensateur 1000 µF (pour stabiliser l’alimentation du servo)
+- (Optionnel) Compas découpé au laser en carton ou en bois.
+- (Optionnel) Flèche découpé au laser en carton ou en bois.
+- (Optionnel) Vis diametre 3mm longeur 45mm x2
+- (Optionnel) Ecrou diamètre 3mm x2
 
 ---
 
@@ -25,6 +30,8 @@ Ce projet Arduino te permet de contrôler un servomoteur (MG996R) en temps réel
 | Signal Servo      | D9              |
 | VCC Servo         | 5V (externe)    |
 | GND Servo         | GND commun      |
+
+1. Images/schema_breadboard.jpg – Schéma de câblage sur breadboard
 
 > ⚠️ Le MG996R peut consommer jusqu’à 2.5 A : ne pas l’alimenter directement depuis l’Arduino. Utilise une alimentation externe 5V bien régulée, et connecte sa masse à celle de l’Arduino.
 
@@ -62,12 +69,19 @@ void loop() {
 ``` 
 ---
 
-## 📷 Illustrations (à insérer dans le dossier Images/)
+## 📷 Illustrations et assemblage
 
-1. Images/schema_breadboard.jpg – Schéma de câblage sur breadboard  
-2. Images/potentiometre_zoom.jpg – Connexion du potentiomètre  
+
+2. Images/potentiometre_zoom.png – Connexion du potentiomètre
+
 3. Images/servo_vue.jpg – Connexion du servo  
-4. Images/capture_code.jpg – Capture d’écran du code Arduino dans l’IDE
+4. Images/compas.png – Compas pour observer l'angle de rotation.
+4. Images/arduino.png – Arduino UNO.
+4. Images/breadboard.png – Plaque de prototypage.
+5. Images/visetecrou.png – Vis et ecrou.
+6. Images/fleche.png – Fleche qui donne la direction de l'angle.
+2. Images/alimentation - Alimentation 5v 3A.
+2. Images/final.png - Montage final.
 
 ---
 
@@ -77,14 +91,19 @@ void loop() {
 
 ---
 
-## ✍️ Auteur
+## ✍️ Nos projets
 
 IronLab — Passionné d'électronique, robotique & projets DIY  
+
 [YouTube](https://youtube.com/@ironlab_974) | [TikTok](https://www.tiktok.com/@ironlab_974) | [Instagram](https://www.instagram.com/ironlab_974)
 
-Compte marchand :
+AquaLab — La téchnologie au service du monde marin & chasse au trésor.
 
-[TikTok](https://www.tiktok.com/@corail.creation) | [Site marchand](https://www.corail-creation.re)
+[YouTube](https://youtube.com/@aqualab_974) | [TikTok](https://www.tiktok.com/@aqualab_974) | [Instagram](https://www.instagram.com/aqualab_974)
+
+Corail Création — Notre boutique
+
+[TikTok](https://www.tiktok.com/@corail.creation) | [Instagram](https://www.instagram.com/corail.creation) | [Site marchand](https://www.corail-creation.re)
 
 ---
 
