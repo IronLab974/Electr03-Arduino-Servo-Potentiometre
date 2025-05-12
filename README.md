@@ -72,33 +72,44 @@ void loop() {
 
 ## 📷 Illustrations et assemblage
 
-
+Potentiomètre 10kΩ
 ![Potentiomètre 10kΩ](Images/potentiometre.png)
 
 > Le pin de gauche +5v pin du milieu = donnée et pin de droite GND. 
 
+Servo moteur MG996R
 ![Servo moteur MG996R](Images/servo.png)
 
 > Il est important d'utiliser une alimentation externe de 5V entre 1-3A.
 
+Compas, vis et écrou
 ![Compas](Images/compas.png)
 
 > Le compas a été découpé dans du contreplaqué 3mm avec une découpe laser.
 > Si vous n'avez pas à votre disposition de découpe laser vous pouver le faire dans du carton en imprimant avant sur du papier.
 > Le modèle se trouve dans Schéma > compas.svg
+> Pour la flèche j'ai utilisé du carton découpé au laser car le contreplaqué de 3mm ne permet de visser la vis de l'attache du servomoteur.
+> Vous pouvez également le faire sur du carton en ayant imprimé sur du papier d'abord.
+> Les vis et écrou utilisé sont 2 vis de dimaètre 3mm et de longeur 15mm.
+> Pour les écrous c'est du 3mm correspondant à la vis.
 
+Arduino Uno
 ![Arduino Uno](Images/arduino.png)
 
+Breadboard
 ![Plaque de prototypage](Images/breadboard.png)
 
+Alimentation 5V 3A
 ![Alimentation externe 5V](Images/alimentation.png)
 
 > Dans ce projet j'ai utilisé une alimentation externe 5V 3A que j'ai modifier dans une vidéo précédente.
 
+Condensateur 1000 µF
 ![Condensateur 1000 µF](Images/condensateur.png)
 
-> Dans ce projet j'ai utilisé une alimentation externe 5V 3A que j'ai modifier dans une vidéo précédente.
+> Le condensateur est optiennel mais si vous en avez à porté de main vous pouvez le branché directement sur la breadboard sur le +5v et GND comme sur le montage final.
 
+Montage final
 ![Montage final](Images/final.png)
 
 ---
