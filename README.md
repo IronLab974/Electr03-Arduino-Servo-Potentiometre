@@ -85,13 +85,14 @@ Servo moteur MG996R
 Compas, vis et écrou
 ![Compas](Images/compas.png)
 
-> Le compas a été découpé dans du contreplaqué 3mm avec une découpe laser.
-> Si vous n'avez pas à votre disposition de découpe laser vous pouver le faire dans du carton en imprimant avant sur du papier.
-> Le modèle se trouve dans Schéma > compas.svg
-> Pour la flèche j'ai utilisé du carton découpé au laser car le contreplaqué de 3mm ne permet de visser la vis de l'attache du servomoteur.
-> Vous pouvez également le faire sur du carton en ayant imprimé sur du papier d'abord.
-> Les vis et écrou utilisé sont 2 vis de dimaètre 3mm et de longeur 15mm.
-> Pour les écrous c'est du 3mm correspondant à la vis.
+> Le compas a été découpé dans du contreplaqué de 3 mm à l'aide d'une découpeuse laser.  
+> Si vous n'avez pas accès à une découpeuse laser, vous pouvez le réaliser en carton en imprimant d'abord le modèle sur du papier.  
+> Le modèle se trouve dans le dossier **Schéma > compas.svg**.  
+> Pour la flèche, j'ai utilisé du carton découpé au laser, car le contreplaqué de 3 mm est trop épais pour fixer correctement la vis de l'attache du servomoteur.  
+> Vous pouvez également la faire en carton, en imprimant d'abord le gabarit sur papier.  
+> Les vis et écrous utilisés sont deux vis de diamètre 3 mm et de longueur 15 mm.  
+> Les écrous sont également au pas de 3 mm, correspondant aux vis.
+
 
 Arduino Uno
 ![Arduino Uno](Images/arduino.png)
@@ -102,12 +103,12 @@ Breadboard
 Alimentation 5V 3A
 ![Alimentation externe 5V](Images/alimentation.png)
 
-> Dans ce projet j'ai utilisé une alimentation externe 5V 3A que j'ai modifier dans une vidéo précédente.
+> Dans ce projet j'ai utilisé une alimentation externe 5V 3A que j'ai modifié dans une vidéo précédente.
 
 Condensateur 1000 µF
 ![Condensateur 1000 µF](Images/condensateur.png)
 
-> Le condensateur est optiennel mais si vous en avez à porté de main vous pouvez le branché directement sur la breadboard sur le +5v et GND comme sur le montage final.
+> Le condensateur est optionnel mais si vous en avez à porté de main vous pouvez le branché directement sur la breadboard sur le +5v et GND comme sur le montage final.
 
 Montage final
 ![Montage final](Images/final.png)
