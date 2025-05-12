@@ -15,7 +15,7 @@ Ce projet Arduino te permet de contrôler un servomoteur (MG996R) en temps réel
 - (Optionnel) Condensateur 1000 µF (pour stabiliser l’alimentation du servo)
 - (Optionnel) Compas découpé au laser en carton ou en bois.
 - (Optionnel) Flèche découpé au laser en carton ou en bois.
-- (Optionnel) Vis diametre 3mm longeur 45mm x2
+- (Optionnel) Vis diamètre 3mm longeur 15mm x2
 - (Optionnel) Ecrou diamètre 3mm x2
 
 ---
