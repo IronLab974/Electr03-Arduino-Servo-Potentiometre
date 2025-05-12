@@ -31,7 +31,8 @@ Ce projet Arduino te permet de contrôler un servomoteur (MG996R) en temps réel
 | VCC Servo         | 5V (externe)    |
 | GND Servo         | GND commun      |
 
-1. Images/schema_breadboard.jpg – Schéma de câblage sur breadboard
+
+![Schéma de câblage sur breadboard](Images/schema.png)
 
 > ⚠️ Le MG996R peut consommer jusqu’à 2.5 A : ne pas l’alimenter directement depuis l’Arduino. Utilise une alimentation externe 5V bien régulée, et connecte sa masse à celle de l’Arduino.
 
